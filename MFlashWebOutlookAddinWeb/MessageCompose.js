@@ -13,14 +13,13 @@
 })();
 
 function attachFile() {
-    var fileUrl = 'https://amwine.ru/upload/blog/30-10-2019/5.jpg';
-    //var fileUrl = 'https://1drv.ms/w/s!AlK0_ugldxQ9gQg9Wya9CYoresIW?e=VjODug';
-    //var fileUrl = 'https://1drv.ms/u/s!AlK0_ugldxQ9hxKlvp2iIlPnoewV';
-    var fileName = 'File.jpg';
+    var fileUrlJpg = 'https://amwine.ru/upload/blog/30-10-2019/5.jpg';
+    var fileUrlDoc = 'https://win2.msoftgroup.ru/mflash/Dispatcher.php?C=1000&file_id=a9228562-ae77-11ea-afa9-525400868cf2&box=&user_id=2476&flpu=';
+    var fileName = 'Test File.docx';
 
     console.log("Attach");
 
-    Office.context.mailbox.item.addFileAttachmentAsync(fileUrl, fileName, {}, (result) => {
+    Office.context.mailbox.item.addFileAttachmentAsync(fileUrlDoc, fileName, {}, (result) => {
         console.log(result)
     });
 }
