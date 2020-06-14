@@ -3,3 +3,7 @@
 ################################################################################
 
 /MFlashWebOutlookAddin/.vs/MFlashWebOutlookAddin/v16
+/MFlashWebOutlookAddin/bin/Debug
+/MFlashWebOutlookAddin/obj/Debug
+/MFlashWebOutlookAddinWeb/bin
+/MFlashWebOutlookAddinWeb/obj/Debug
